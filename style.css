@@ -67,13 +67,26 @@ h2 {
 	transition: width .3s, height .3s;
 }
 
+.content_static {
+	width:50%;
+	/*height: 100px;*/
+	padding-bottom: 5px;
+	padding-right: 2px;
+	padding-left: 2px;
+	margin: 0px auto;
+	background-color: rgba(122, 92, 252, 0.8);
+	border: 0px;
+	border-radius: 12px;
+	margin-bottom: 12px;
+}
+
 .content:hover {
 	width: 60%;
 	height: 120px;
 	transition: width .3s, height .3s;
 }
 
-.content .content_icon {
+.content_static .content_icon, .content .content_icon {
 	display: inline-block;
 	height: 80%;
 	border-radius: 12px;
@@ -82,7 +95,7 @@ h2 {
 	float: left;
 }
 
-.content h3 {
+.content_static h3, .content h3 {
 	display: inline-block;
 	color: white;
 	text-decoration: underline;
@@ -91,7 +104,7 @@ h2 {
 	margin-top: 10px;
 }
 
-.content p {
+.content_static p, .content p {
 	margin: 0px;
 	width: 75%;
 	max-height: 50px;
