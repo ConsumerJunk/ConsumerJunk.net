@@ -1,0 +1,20 @@
+html.large div#head div#bounding {
+	margin: auto;
+	width: 55%;
+}
+
+html.large div#head #bounding #logo_pair img {
+	padding: 1.5vh;
+	height: 5vh;
+}
+
+html.large div#head div#bounding div#logo_pair {
+	float: left;
+}
+
+html.large div#head div#bounding div#logo_pair h1 {
+	display: inline-block;
+	font-size: 5vh;
+	position: relative;
+	top: -2vh;
+}
