@@ -6,20 +6,20 @@ html.medium div#head {
 	background-color: #161620;
 }
 
-div#head div#bounding {
+html.medium div#head div#bounding {
 	margin: auto;
 	width: 55%;
 }
 
-div#head #bounding #logo_pair img {
+html.medium div#head #bounding #logo_pair img {
 	padding: 1.5vh;
 	height: 5vh;
 }
 
-div#head div#bounding div#logo_pair {
+html.medium div#head div#bounding div#logo_pair {
 	float: left;
 }
 
-div#head div#bounding div#logo_pair h1 {
+html.medium div#head div#bounding div#logo_pair h1 {
 	display: none;
 }

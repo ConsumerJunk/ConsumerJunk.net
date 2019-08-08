@@ -16,6 +16,14 @@ div#head {
 	box-shadow: 0px 10px 39px 13px rgba(0,0,0,0.75);
 }
 
+div#head div#bounding div#logo_pair {
+	cursor: pointer;
+}
+
+div#head div#bounding div#logo_pair img {
+	border-radius: 25%;
+}
+
 div#head div#bounding div#nav_pair {
 	float: right;
 	display: inline-block;
@@ -26,7 +34,7 @@ div#head div#bounding div#nav_pair {
 
 div#head div#bounding div#nav_pair h4 {
 	display: inline-block;
-	
+	cursor: pointer;
 }
 
 div#head div#bounding div#nav_pair h4:hover {
@@ -34,5 +42,5 @@ div#head div#bounding div#nav_pair h4:hover {
 }
 
 div#head div#bounding div#nav_pair h4:first-child {
-	padding-right: 50px;
+	margin-right: 50px;
 }
