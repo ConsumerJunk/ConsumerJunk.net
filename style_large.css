@@ -1,11 +1,21 @@
+html.large div#head {
+	min-height: 70px;
+}
+
 html.large div#head div#bounding {
 	margin: auto;
+	height: 70px;
 	width: 55%;
 }
 
-html.large div#head #bounding #logo_pair img {
-	padding: 1.5vh;
-	height: 5vh;
+html.large div#head div#bounding div#logo_pair {
+	height:70px;
+}	
+
+html.large div#head #bounding div#logo_pair img {
+	border-radius: 10%;
+	height: 50px;
+	margin-bottom: 10px;
 }
 
 html.large div#head div#bounding div#logo_pair {
@@ -13,8 +23,71 @@ html.large div#head div#bounding div#logo_pair {
 }
 
 html.large div#head div#bounding div#logo_pair h1 {
+	height: 70px;
 	display: inline-block;
-	font-size: 5vh;
+	margin-bottom: 10px;
+	margin-left: 12px;
 	position: relative;
-	top: -2vh;
+	bottom: 18px;
+	font-size: 46px;
+}
+
+html.large div#head div#bounding div#nav_pair {
+	height: 70px;
+}
+
+html.large div#head div#bounding div#nav_pair h4 {
+	font-size: 30px;
+	position: relative;
+	bottom: 20px;
+}
+
+html.large div#menu {
+	background-color: #161620;
+	width: 50vw;
+	height: 35vh;
+	z-index: -1;
+	-webkit-box-shadow: 0px 10px 39px 13px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 39px 13px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 39px 13px rgba(0,0,0,0.75);
+	position: absolute;
+}
+
+html.large div#menu.closed {
+	transition: all 0.2s;
+	width: 40vw;
+	height: 0vh;
+	left: 30vw;
+	top: -300px;
+}
+
+html.large div#menu.open {
+	transition: all 0.2s;
+	top: 150px;
+	left: 25vw;
+	width: 50vw;
+}
+
+html.large div#menu table#menu_table {
+	padding-top: 12px;
+	width: 100%;
+}
+
+html.large div#menu table#menu_table th {
+	width: 33.33%;
+	font-size: 1.4em;
+}
+
+html.large div#menu table#menu_table th hr {
+	width: 70%;
+}
+
+html.large div#menu table#menu_table td {
+	width: 33.33%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+html.large div#menu table#menu_table td:hover {
+	text-decoration: underline;
 }

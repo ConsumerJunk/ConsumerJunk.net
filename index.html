@@ -2,6 +2,7 @@
 <header>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="variable_styles.js"></script>
+	<script type="text/javascript" src="interactive.js"></script>
 	<link rel="stylesheet" type="text/css" href="style_large.css">
 	<link rel="stylesheet" type="text/css" href="style_medium.css">
 	<link rel="stylesheet" type="text/css" href="style_small.css">
@@ -15,10 +16,31 @@
 				<h1>ConsumerJunk</h1>
 			</div>
 			<div id="nav_pair">
-				<h4>Index</h4>
+				<h4 id="menu_toggle">Index</h4>
 				<h4>About Me</h4>
 			</div>
 		</div>
+	</div>
+	<div id="menu" class="closed">
+		<table id="menu_table">
+			<tbody>
+				<tr>
+					<th>Fun projects<hr></th>
+					<th>Personal projects<hr></th>
+					<th>Contracted work<hr></th>
+				</tr>
+				<tr>
+					<td></td>
+					<td>SBOAB</td>
+					<td>Apollo</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>Handoff</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </body>
 </html>

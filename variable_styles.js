@@ -5,15 +5,15 @@ $("document").ready(function() {
 
 var check = function(){
 	var width = $(window).width();
-	if(width <= 400) {
+	if(width <= 640) {
 		$("html").removeClass();
 		$("html").addClass("small");
 	}
-	if(width > 400 && width < 1000) {
+	if(width > 640 && width < 1300) {
 		$("html").removeClass();
 		$("html").addClass("medium");
 	}
-		if(width >= 1000) {
+		if(width >= 1300) {
 		$("html").removeClass();
 		$("html").addClass("large");
 	}
