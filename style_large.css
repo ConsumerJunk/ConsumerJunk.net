@@ -10,13 +10,12 @@ html.large div#head div#bounding {
 
 html.large div#head div#bounding div#logo_pair {
 	height:70px;
-}	
+}
 
 html.large div#head #bounding div#logo_pair img {
 	border-radius: 10%;
 	height: 80%;
 	margin-bottom: 2%;
-	/*vertical-align: middle;*/
 }
 
 html.large div#head div#bounding div#logo_pair {
@@ -24,11 +23,11 @@ html.large div#head div#bounding div#logo_pair {
 }
 
 html.large div#head div#bounding div#logo_pair h1 {
-	height: 70px;
+	height: 58px;
 	display: inline-block;
-	margin-bottom: 10px;
-	margin-left: 12px;
 	position: relative;
+	margin-bottom: 0px;
+	margin-left: 12px;
 	bottom: 18px;
 	font-size: 46px;
 }
@@ -89,6 +88,10 @@ html.large div#menu table#menu_table td {
 	cursor: pointer;
 }
 
+html.large div#menu table#menu_table p.small_menu_header {
+	display: none;
+}
+
 html.large div#menu table#menu_table td:hover {
 	text-decoration: underline;
 }
@@ -127,7 +130,7 @@ html.large div.shown_content {
 
 html.large div.content h1 {
 	text-decoration: underline;
-	font-size: 200px;
+	font-size: 6vw;
 	margin: 0px;
 	width: 100%;
 	text-align: center;

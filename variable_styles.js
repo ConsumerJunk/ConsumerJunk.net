@@ -5,6 +5,8 @@ $("document").ready(function() {
 
 var check = function(){
 	var width = $(window).width();
+	// $(document).append(width);
+	console.log(width)
 	if(width <= 640) {
 		$("html").removeClass();
 		$("html").addClass("small");
@@ -12,9 +14,11 @@ var check = function(){
 	if(width > 640 && width < 1300) {
 		$("html").removeClass();
 		$("html").addClass("medium");
+		$("#name").text("CJ");
 	}
-		if(width >= 1300) {
+	if(width >= 1300) {
 		$("html").removeClass();
 		$("html").addClass("large");
+		$("#name").text("ConsumerJunk");
 	}
 }

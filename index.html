@@ -12,12 +12,12 @@
 	<div id="head">
 		<div id="bounding">
 			<div id="logo_pair">
-				<img src="icon.png">
-				<h1>ConsumerJunk</h1>
+				<img src="icon.png" goto="Home">
+				<h1 goto="Home" id="name">ConsumerJunk</h1>
 			</div>
 			<div id="nav_pair">
 				<h4 id="menu_toggle">Index</h4>
-				<h4>About Me</h4>
+				<h4 goto="About_me">About Me</h4>
 			</div>
 		</div>
 	</div>
@@ -25,33 +25,41 @@
 		<table id="menu_table">
 			<tbody>
 				<tr>
-					<th>Fun projects<hr></th>
-					<th>Personal projects<hr></th>
-					<th>Contracted work<hr></th>
+					<th><p class="large_menu_header">Fun projects</p><p class="small_menu_header">Fun</p><hr></th>
+					<th><p class="large_menu_header">Hobby projects</p><p class="small_menu_header">Personal</p><hr></th>
+					<th><p class="large_menu_header">Contracted work</p><p class="small_menu_header">Contracted</p><hr></th>
 				</tr>
 				<tr>
 					<td></td>
-					<td goto="SBOAB">SBOAB</td>
+					<td goto="About_me">About me</td>
 					<td goto="ApolloStats">ApolloStats</td>
 				</tr>
 				<tr>
 					<td></td>
-					<td></td>
+					<td goto="SBOAB">SBOAB</td>
 					<td goto="Handoff">Handoff</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+	<div id="Home" class="content shown_content">
+		<h1 class="content_header">ConsumerJunk</h1>
+		<p class="content_desc">This is my website. Here I put some cool <a onclick="open_menu()">things</a> I'm working on, some boring stuff, and some other stuff I haven't thought of yet. The purpose of this site is to become a portfolio of my work, and also to get me focused on a project long enough for it to make it here. I also have a few projects that are on going which will pop up here ever so often.</p>
+	</div>
+	<div id="About_me" class="content hidden_content">
+		<h1 class="content_header">About Me</h1>
+	</div>
 	<div id="SBOAB" class="content hidden_content">
 		<h1 class="content_header">SBOAB</h1>
+		<!-- <p></p> -->
 	</div>
-	<div id="ApolloStats" class="content shown_content">
-		<!-- <script type="text/javascript" src="https://github.com/typeiii/jquery-csv/blob/master/src/jquery.csv.min.js"></script> -->
-		<script type="text/javascript" src="pages/apollostats.js"></script>
+	<div id="ApolloStats" class="content hidden_content">
 		<h1 class="content_header">ApolloStats</h1>
-		<p class="content_desc">This project was designed to have two components. A Minecraft Bukkit plugin, and a web interface. The plugin sends data to a <a href="https://bitbucket.org">BitBucket</a> repository as a CSV file, the file is then read via JavaScript and Ajax, and compiled into an interactive table.</p>
-		<button onclick="get()">Launch</button>
-		<div id="response"></div>
+		<p class="content_desc">This project was designed to have two components. A Minecraft Bukkit plugin, and a web interface. The plugin sends data to a <a href="https://bitbucket.org" target="_target">BitBucket</a> repository as a CSV file, the file is then read via JavaScript and Ajax, and compiled into an interactive table.</p>
+	</div>
+	<div id="Handoff" class="content hidden_content">
+		<h1 class="content_header">Handoff</h1>
+		<p class="content_desc">This is a plugin for a Minecraft Bukkit server. The purpose of this plugin is to provide a natural feeling way to safely sale items on a multiplayer world.</p>
 	</div>
 </body>
 </html>

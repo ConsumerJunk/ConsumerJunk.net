@@ -30,10 +30,6 @@ div#head div#bounding div#logo_pair {
 	height: 8vh;
 }
 
-div#head div#bounding div#logo_pair img {
-	border-radius: 25%;
-}
-
 div#head div#bounding div#nav_pair {
 	font-family: "Bahnschrift Light";
 	float: right;
