@@ -88,6 +88,11 @@ html.large div#menu table#menu_table td {
 	cursor: pointer;
 }
 
+html.large div#menu table#menu_table td a {
+	color: white;
+	text-decoration: none;
+}
+
 html.large div#menu table#menu_table p.small_menu_header {
 	display: none;
 }

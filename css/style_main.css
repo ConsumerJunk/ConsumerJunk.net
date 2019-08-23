@@ -1,0 +1,55 @@
+body {
+	background-image: radial-gradient(circle, #2b2b42, #27273b, #222234, #1e1e2d, #1a1a26);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0px;
+	color: white;
+	font-family: "Bahnschrift";
+	user-select: none;
+}
+
+div#head {
+	width: 100%;
+	height: 70px;
+	vertical-align: middle;
+	background-color: #161620;
+	-webkit-box-shadow: 0px 10px 39px 13px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 39px 13px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 39px 13px rgba(0,0,0,0.75);
+	position: fixed;
+	margin-top: 0px;
+	z-index: 2;
+}
+
+div#head div#bounding {
+	min-height: 8vh;
+}
+
+div#head div#bounding div#logo_pair {
+	cursor: pointer;
+	height: 8vh;
+}
+
+div#head div#bounding div#nav_pair {
+	font-family: "Bahnschrift Light";
+	float: right;
+	display: inline-block;
+}
+
+div#head div#bounding div#nav_pair h4 {
+	display: inline-block;
+	cursor: pointer;
+}
+
+div#head div#bounding div#nav_pair h4:hover {
+	text-decoration: underline;
+}
+
+div#head div#bounding div#nav_pair h4:first-child {
+	margin-right: 50px;
+}
+
+div#menu {
+	position: fixed;
+	z-index: 1;
+}

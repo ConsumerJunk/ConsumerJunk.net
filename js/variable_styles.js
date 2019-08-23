@@ -6,7 +6,7 @@ $("document").ready(function() {
 var check = function(){
 	var width = $(window).width();
 	// $(document).append(width);
-	console.log(width)
+	// console.log(width)
 	if(width <= 640) {
 		$("html").removeClass();
 		$("html").addClass("small");

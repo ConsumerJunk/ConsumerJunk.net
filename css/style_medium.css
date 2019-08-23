@@ -102,6 +102,10 @@ html.medium div#menu table#menu_table td:hover {
 	text-decoration: underline;
 }
 
+html.medium div#menu table#menu_table td a {
+	color: white;
+	text-decoration: none;
+}
 html.medium div.hidden_content {
 	display: none;
 	opacity: 0;

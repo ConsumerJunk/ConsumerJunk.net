@@ -1,18 +1,18 @@
 <html class="large">
 <header>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="variable_styles.js"></script>
-	<script type="text/javascript" src="interactive.js"></script>
-	<link rel="stylesheet" type="text/css" href="style_large.css">
-	<link rel="stylesheet" type="text/css" href="style_medium.css">
-	<link rel="stylesheet" type="text/css" href="style_small.css">
-	<link rel="stylesheet" type="text/css" href="style_main.css">
+	<script type="text/javascript" src="js/variable_styles.js"></script>
+	<script type="text/javascript" src="js/interactive.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style_large.css">
+	<link rel="stylesheet" type="text/css" href="css/style_medium.css">
+	<link rel="stylesheet" type="text/css" href="css/style_small.css">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css">
 </header>
 <body>
 	<div id="head">
 		<div id="bounding">
 			<div id="logo_pair">
-				<img src="icon.png" goto="Home">
+				<img src="images/icon.png" goto="Home">
 				<h1 goto="Home" id="name">ConsumerJunk</h1>
 			</div>
 			<div id="nav_pair">
@@ -26,18 +26,23 @@
 			<tbody>
 				<tr>
 					<th><p class="large_menu_header">Fun projects</p><p class="small_menu_header">Fun</p><hr></th>
-					<th><p class="large_menu_header">Hobby projects</p><p class="small_menu_header">Personal</p><hr></th>
-					<th><p class="large_menu_header">Contracted work</p><p class="small_menu_header">Contracted</p><hr></th>
+					<th><p class="large_menu_header">Contracted projects</p><p class="small_menu_header">Contracted</p><hr></th>
+					<th><p class="large_menu_header">Personal work</p><p class="small_menu_header">Personal</p><hr></th>
 				</tr>
 				<tr>
-					<td></td>
-					<td goto="About_me">About me</td>
-					<td goto="ApolloStats">ApolloStats</td>
-				</tr>
-				<tr>
-					<td></td>
 					<td goto="SBOAB">SBOAB</td>
+					<td goto="ApolloStats">ApolloStats</td>
+					<td goto="About_me">About me</td>
+				</tr>
+				<tr>
+					<td></td>
 					<td goto="Handoff">Handoff</td>
+					<td goto="Contact">Contact</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td><a href="pages/Time_Organizer/index.html">T.O.</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -48,6 +53,7 @@
 	</div>
 	<div id="About_me" class="content hidden_content">
 		<h1 class="content_header">About Me</h1>
+		<p class="content_desc">Hello, I'm ConsumerJunk, a wannabe application developer and an upper-end mediocre programmer. I've been programming since I was 10 or so when it started as a hobby with <a href="https://scratch.mit.edu" target="_target">Scratch</a>. But as my desire to want to do more complicated things grew, so did my knowledge of other programming languages. After a short stint with QBasic (I had a programming book about the language that was surprisingly popular at my school) I moved on to C#. I really liked C#, but found that I couldn't quite do what I wanted with it. The language itself was fine, but I never was fond of the way the code looked, and while there are plenty of YouTube videos on it, almost all of them don't know how to properly place their brackets. After my initial experience with these unsuitable languages (Except scratch, that'll always be my first) I found what really mattered in life. Not family, friends, money or even coffee. The real thing you can look forward to in life is the moment you discover Java. </p>
 	</div>
 	<div id="SBOAB" class="content hidden_content">
 		<h1 class="content_header">SBOAB</h1>
@@ -60,6 +66,10 @@
 	<div id="Handoff" class="content hidden_content">
 		<h1 class="content_header">Handoff</h1>
 		<p class="content_desc">This is a plugin for a Minecraft Bukkit server. The purpose of this plugin is to provide a natural feeling way to safely sale items on a multiplayer world.</p>
+	</div>
+		<div id="Contact" class="content hidden_content">
+		<h1 class="content_header">Contact</h1>
+		<p class="content_desc">Feel free to send me an email with the contact forum below. I check emails semi-often, and try to reply reasonably fast when I receive them</p>
 	</div>
 </body>
 </html>
