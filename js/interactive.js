@@ -3,6 +3,7 @@ var click_out = false;
 
 $(document).ready(function(event) {
 	if(window.location.hash) {
+		Debug.log("Visiting page from url anchor.");
 		goto_page(window.location.hash.replace("#", ""));
 	}
 	$(document).mousedown(function(event) {
@@ -47,7 +48,6 @@ var open_menu = function() {
 		click_out = true;
 	}, 0);
 }
-<<<<<<< HEAD
 
 var goto_page = function(name) {
 	close_menu();
@@ -57,5 +57,3 @@ var goto_page = function(name) {
 	name.removeClass("hidden_content");
 	name.addClass("shown_content");
 }
-=======
->>>>>>> ddded075d08ff0dda0534e82415eedf70fd1351f
