@@ -3,7 +3,6 @@ var click_out = false;
 
 $(document).ready(function(event) {
 	if(window.location.hash) {
-		Debug.log("Visiting page from url anchor.");
 		goto_page(window.location.hash.replace("#", ""));
 	}
 	$(document).mousedown(function(event) {

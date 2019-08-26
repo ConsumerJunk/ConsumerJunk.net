@@ -53,3 +53,30 @@ div#menu {
 	position: fixed;
 	z-index: 1;
 }
+
+div.content button {
+	transition: transform 0.2s, box-shadow 0.2s;
+	transform: scale(1);
+	-webkit-box-shadow: 0px 15px 33px -17px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 15px 33px -17px rgba(0,0,0,0.75);
+	box-shadow: 0px 15px 33px -17px rgba(0,0,0,0.75);
+	min-width: 24%;
+	min-height: 80px;
+	font-family: "Bahnschrift";
+	font-size: 40px;
+	margin-left: 38%;
+	margin-top: 6%;
+	background-color: 444463;
+	color: white;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+div.content button:hover{
+	transition: transform 0.2s, box-shadow 0.2s;
+	transform: scale(1.2) rotate(-1deg);
+	-webkit-box-shadow: 0px 31px 33px -17px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 31px 33px -17px rgba(0,0,0,0.75);
+	box-shadow: 0px 31px 33px -17px rgba(0,0,0,0.75);
+}

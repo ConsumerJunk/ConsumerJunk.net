@@ -141,7 +141,7 @@ html.medium div.content a {
 	text-decoration: underline;
 }
 
-html.medium div.content a:hover {
+html.medium div.content a:not(.content_button):hover {
 	background-color: #161620;
 	border: 4px solid #161620;
 }
