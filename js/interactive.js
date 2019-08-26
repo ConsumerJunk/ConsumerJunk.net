@@ -2,6 +2,9 @@ var menu_open = false;
 var click_out = false;
 
 $(document).ready(function(event) {
+	if(window.location.hash) {
+		goto_page(window.location.hash.replace("#", ""));
+	}
 	$(document).mousedown(function(event) {
 		if(menu_open && click_out && !($("#menu_toggle").is(event.target))) {
 			if(!($(event.target).parents('#menu').length || $("#menu").is(event.target))) {
