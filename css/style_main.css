@@ -49,6 +49,10 @@ div#head div#bounding div#nav_pair h4:first-child {
 	margin-right: 50px;
 }
 
+*:focus{
+	outline: none;
+}
+
 div#menu {
 	position: fixed;
 	z-index: 1;
